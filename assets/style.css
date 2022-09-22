@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+:root{
+    --nb-color: rgb(187, 204, 131);
+    --nb-color2: #e9edc9ff;
+    --bg-color: #fefae0ff;
+    --bg-color-2: #faedcdff;
+    --text-color: rgb(194, 129, 64);
+    
+    }
+    
+    
+    
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+  .bg-img {
+    background-image: url(./pollobg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}    
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10em;
+    z-index: -3;
+}
+
+    
+    /* navbar */
+
+.navbar {
+    background-color: var(--nb-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    height: 50px;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px white;
+    padding: 5px 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cart {
+    height: 20px;
+}
+
+.navbar-elements{
+    display: flex;
+    gap: 45px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-list a {
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* main */
+
+.main {
+    position: absolute;
+    background-color: var(--bg-color);
+    width: 100%;
+    display: flex;
+    margin-top: 20%;
+    padding: 80px 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ h1 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 70px;
+    position: sticky;
+    font-family: 'Staatliches'
+}
+
+.dojo-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 50px 40px 200px 40px;
+    
+
+}
+
+.dojo-about {
+    display: flex;
+    width: 60%;
+    max-width: 1300px;
+    flex-direction: column;
+    margin-right: 90px;
+    padding: 40px;
+    margin-top: 90px;
+    gap: 20px;
+    color: var(--text-color);
+    text-align: justify;
+    
+    
+}
+
+.dojo-about h2{
+    font-size: 40px;
+    text-align: left;
+}
+
+.dojo-about p {
+    font-size: 24px;
+}
+
+.dojo-about a {
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+.chicken {
+    height: 300px;
+    margin-top: 140px;
+    padding: 10px;
+}
