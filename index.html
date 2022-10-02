@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./assets/style.css" />
+		<link rel="stylesheet" href="./assets/mediaqueries.css" />
 		<title>Testing Co.</title>
 	</head>
 	<body class="bg-img">
@@ -22,12 +23,13 @@
 				</div>
 			</nav>
 		</header>
-		<div class="home-title">
-			<h1>¡Bienvenido/a a El Pollo Hermano!</h1>
-		</div>
-		<main class="main">
-			<section class="dojo-info">
-				<div class="dojo-about">
+
+		<main>
+			<div class="home-title">
+				<h1>¡Bienvenido/a a El Pollo Hermano!</h1>
+			</div>
+			<section class="dojo-info dojo-text">
+				<div class="dojo-about dojo-text">
 					<h2>Siempre listos para atenderte:</h2>
 					<p>
 						Somos un gram negocio gastronómico destinado a la elaboración de las
@@ -38,19 +40,74 @@
 						<a href="#">direcciones.</a> ¡Te esperamos!
 					</p>
 				</div>
-				<img src="./assets/pollo1.jpg" alt="pollo1" class="chicken" />
+				<div id="chicken"><img src="./assets/pollo1.jpg" alt="pollo1" /></div>
 			</section>
-			<section class="dojo-about">
-				<h2>Quizás quieras conocernos:</h2>
-				<p>
-					Fundado en 2007, somos una empresa gastronómica con más de 15 años en
-					el mercado culinario, con más de 80 sucursales en toda la provincia.
-					Nos especializamos en la elaboración de comida rápida basada en pollo,
-					producto proveniente de nuestras propias granjas. Para más información
-					puedes contactarte con Recursos Humanos a este número: XXX-XXX-XXXXXXX
-				</p>
+			<section class="dojo-intro dojo-text">
+				<img src="./assets/pollo3.jpg" alt="pollo2" id="chicken2" />
+				<div>
+					<h2>Quizás quieras conocernos:</h2>
+					<p>
+						Fundado en 2007, somos una empresa gastronómica con más de 15 años
+						en el mercado culinario, con más de 80 sucursales en toda la
+						provincia. Nos especializamos en la elaboración de comida rápida
+						basada en pollo, producto proveniente de nuestras propias granjas.
+					</p>
+					<p>
+						Para más información puedes contactarte con Recursos Humanos a este
+						número: XXX-XXX-XXXXXXX.
+					</p>
+				</div>
+			</section>
+
+			<section class="dojo-text dojo-grid">
+				<h3>Estamos aquí para brindarte:</h3>
+				<div class="dojo-text dojo-info-2">
+					<div class="dojo-service">
+						<img src="./assets/repartidor.jpg" alt="repartidor" />
+						<p>
+							Un envio seguro y eficaz, contamos con delivery a domicilio de
+							Lunes a Domingo de 10:00 a 16:30 y de 21:00 a 01:00.
+						</p>
+					</div>
+					<div class="dojo-service">
+						<img src="./assets/servicio.jpg" alt="servicio al cliente" />
+						<p>
+							Una atención profesional excelente por parte de nuestro personal
+							y, si buscas trabajar con nosotros, un ambiente cómodo de
+							desempeño laboral.
+						</p>
+					</div>
+					<div class="dojo-service">
+						<img src="./assets/postre.jpg" alt="postres" />
+						<p>
+							Gran variedad de platos, elaborados con ingredientes de excelente
+							calidad. También incluímos un nuevo menú de postres artesanales,
+							te recomendamos probarlo.
+						</p>
+					</div>
+				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<div>
+				<ul class="footer-links">
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-whatsapp"></i> Llámanos: XXX-XXXXX-XXXXX</a
+						>
+					</li>
+					<li>
+						<a href="#"> <i class="fa-brands fa-twitter"></i> Twitter</a>
+					</li>
+					<li>
+						<a href="#"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script
+			src="https://kit.fontawesome.com/545b0d7f51.js"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>

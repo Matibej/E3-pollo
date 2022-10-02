@@ -1,0 +1,91 @@
+@media(max-width: 1018px) {
+  .bg-img main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.dojo-about {
+    display: flex;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+}
+
+.dojo-about p{
+    font-size: 20px;
+}
+.dojo-about h2{
+    font-size: 25px;
+}
+
+footer{
+    top: 125em;
+}
+
+}
+
+@media (max-width: 992px) {
+    .dojo-grid{
+        width: 950px;
+        margin-right: 0px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    .dojo-info{
+        margin-top: -50px;
+        height: 300px;
+    }
+
+    .dojo-about{
+        gap: 20px;
+    }
+    
+    .dojo-about p{
+        font-size: 16px;
+    }
+
+    .dojo-intro{
+        height: 400px;
+        display: flex;
+        text-align: center;
+    }
+    
+    .dojo-intro img{
+        height: 100%;
+    }
+
+    .dojo-intro h2{
+        font-size: 25px;
+    }
+
+    .dojo-intro p{
+     font-size: 16px;
+    }
+    
+    .dojo-grid{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .dojo-info-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        top: 160em;
+    }
+}
